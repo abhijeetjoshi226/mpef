@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="News and media coverage of Manikrao Patil Education Foundation (MPEF)."
+    />
+    <title>News â€¢ Manikrao Patil Education Foundation (MPEF)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/logo.jpeg" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n data-en="Skip to content" data-mr="मुख्य मजकुराकडे जा"
+      >Skip to content</a
+    >
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="MPEF Home">
+          <img class="brand-logo" src="images/logo.jpeg" alt="MPEF Logo" />
+          <div class="brand-text">
+            <div
+              class="brand-title"
+              data-i18n
+              data-en="Manikrao Patil Education Foundation"
+              data-mr="माणिकराव पाटील एज्युकेशन फाउंडेशन"
+            >
+              Manikrao Patil Education Foundation
+            </div>
+            <div
+              class="brand-subtitle"
+              data-i18n
+              data-en="Shaping futures through education"
+              data-mr="शिक्षणातून भविष्य घडवतो"
+            >
+              Shaping futures through education
+            </div>
+          </div>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          data-nav-toggle
+          data-i18n-aria-label
+          data-en-aria-label="Open menu"
+          data-mr-aria-label="à¤®à¥‡à¤¨à¥‚ à¤‰à¤˜à¤¡à¤¾"
+          aria-label="Open menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="site-nav" data-nav>
+          <a
+            class="nav-link"
+            href="index.html"
+            data-i18n
+            data-en="Home"
+            data-mr="मुख्यपृष्ठ"
+            >Home</a
+          >
+          <a
+            class="nav-link"
+            href="about.html"
+            data-i18n
+            data-en="About Us"
+            data-mr="आमच्याबद्दल"
+            >About Us</a
+          >
+          <a
+            class="nav-link is-active"
+            href="news.html"
+            data-i18n
+            data-en="News"
+            data-mr="बातम्या"
+            >News</a
+          >
+          <a
+            class="nav-link"
+            href="index.html#contact"
+            data-i18n
+            data-en="Contact"
+            data-mr="संपर्क"
+            >Contact</a
+          >
+          <a
+            class="nav-cta"
+            href="index.html#contact"
+            data-i18n
+            data-en="Enquire Now"
+            data-mr="तुरंत चौकशी करा"
+            >Enquire Now</a
+          >
+          <div class="lang-toggle" data-lang-toggle>
+            <button type="button" data-lang-btn="en" class="is-active">EN</button>
+            <button type="button" data-lang-btn="mr">MR</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-hero page-hero--news">
+        <div class="container page-hero-inner">
+          <div>
+            <p class="pill" data-i18n data-en="News & Media" data-mr="बातम्या व माध्यमे">
+              <span class="dot"></span>
+              News & Media
+            </p>
+            <h1
+              data-i18n
+              data-en="Newspaper coverage and updates"
+              data-mr="वृत्तपत्रांमधील प्रसिद्धी आणि अद्ययावत घडामोडी"
+            >
+              Newspaper coverage and updates
+            </h1>
+            <p
+              class="lead"
+              data-i18n-html
+              data-i18n
+              data-en="Below are recent clippings. Add more images to <code>images/Newspaper/</code> and we can include them here as well."
+              data-mr="खाली आमच्या संस्थेबाबत आलेल्या काही ताज्या वृत्तपत्रातील झलक दिल्या आहेत. <code>images/Newspaper/</code> या फोल्डरमध्ये नवी चित्रे टाकल्यास ती येथेही दाखवू शकता."
+            >
+              Below are recent clippings. Add more images to <code>images/Newspaper/</code> and
+              we can include them here as well.
+            </p>
+          </div>
+          
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 data-i18n data-en="Clippings" data-mr="वृत्तपत्र कात्रणे">Clippings</h2>
+            <p
+              class="muted"
+              data-i18n-html
+              data-i18n
+              data-en="Images are loaded from <code>images/Newspaper/</code>."
+              data-mr="येथील सर्व छायाचित्रे <code>images/Newspaper/</code> या फोल्डरमधून घेतली जातात."
+            >
+              Images are loaded from <code>images/Newspaper/</code>.
+            </p>
+          </div>
+
+          <div class="news-grid" id="newsGrid" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" data-lightbox aria-hidden="true">
+      <button
+        class="lightbox-close"
+        type="button"
+        data-lightbox-close
+        data-i18n-aria-label
+        data-en-aria-label="Close"
+        data-mr-aria-label="बंद करा"
+        aria-label="Close"
+      >
+        âœ•
+      </button>
+      <img class="lightbox-img" data-lightbox-img alt="News clipping" />
+      <div class="lightbox-caption" data-lightbox-caption></div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-mission">
+          <h3
+            class="footer-heading"
+            data-i18n
+            data-en="Join Our Mission to Empower Teachers"
+            data-mr="शिक्षक सक्षमीकरणाच्या आमच्या ध्येयात सहभागी व्हा"
+          >
+            Join Our Mission to Empower Teachers
+          </h3>
+          <p
+            class="footer-text"
+            data-i18n
+            data-en="Whether you're an educator, institution, or supporter, there's a place for you in the MPEF family."
+            data-mr="तुम्ही शिक्षक, संस्था किंवा समर्थक असाल, MPEF परिवारात तुमच्यासाठी नक्की स्थान आहे."
+          >
+            Whether you're an educator, institution, or supporter, there's a place for you in the
+            MPEF family.
+          </p>
+          <div class="footer-brand" style="margin-top: 10px">
+            <img class="footer-logo" src="images/logo.jpeg" alt="MPEF Logo" />
+            <div>
+              <div
+                class="footer-title"
+                data-i18n
+                data-en="K. Manikrao Patil Educational Foundation"
+                data-mr="के. माणिकराव पाटील एज्युकेशनल फाउंडेशन"
+              >
+                K. Manikrao Patil Educational Foundation
+              </div>
+              <div
+                class="footer-subtitle"
+                data-i18n
+                data-en="Empowering teachers and transforming education across Maharashtra."
+                data-mr="शिक्षकांना सक्षम करून महाराष्ट्रभर शिक्षणात परिवर्तन घडवणे."
+              >
+                Empowering teachers and transforming education across Maharashtra.
+              </div>
+            </div>
+          </div>
+          <p
+            class="footer-text"
+            style="margin-top: 8px"
+            data-i18n
+            data-en="K. Manikrao Patil Educational Foundation is dedicated to empowering teachers and transforming education across Maharashtra."
+            data-mr="के. माणिकराव पाटील एज्युकेशनल फाउंडेशन शिक्षकांना सक्षम करून महाराष्ट्रभर शिक्षणात परिवर्तन घडवण्यासाठी कटिबद्ध आहे."
+          >
+            K. Manikrao Patil Educational Foundation is dedicated to empowering teachers and
+            transforming education across Maharashtra.
+          </p>
+          <p
+            class="footer-reg"
+            data-i18n
+            data-en="Registered under RG. No. F33881"
+            data-mr="नोंदणी क्रमांक: RG. No. F33881"
+          >
+            Registered under RG. No. F33881
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4 class="footer-heading" data-i18n data-en="Quick Links" data-mr="त्वरित दुवे">Quick Links</h4>
+          <ul class="footer-list">
+            <li><a href="index.html" data-i18n data-en="Home" data-mr="मुख्यपृष्ठ">Home</a></li>
+            <li><a href="about.html" data-i18n data-en="About Us" data-mr="आमच्याबद्दल">About Us</a></li>
+            <li><a href="about.html#main" data-i18n data-en="Our Work" data-mr="आमचे कार्य">Our Work</a></li>
+            <li><a href="gallery.html" data-i18n data-en="Gallery" data-mr="गॅलरी">Gallery</a></li>
+            <li>
+              <a href="index.html#contact" data-i18n data-en="Contact Us" data-mr="आमच्याशी संपर्क">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4 class="footer-heading" data-i18n data-en="Contact Us" data-mr="आमच्याशी संपर्क">Contact Us</h4>
+          <p class="footer-text" data-i18n data-en="Kolhapur, Maharashtra, India" data-mr="कोल्हापूर, महाराष्ट्र, भारत">
+            Kolhapur, Maharashtra, India
+          </p>
+          <p class="footer-text">contact@mpef.org</p>
+          <p class="footer-text">+91 XXXXXXXX</p>
+          <h4 class="footer-heading" style="margin-top: 10px" data-i18n data-en="Follow Us" data-mr="आम्हाला फॉलो करा"
+            >Follow Us</h4
+          >
+          <p
+            class="footer-text"
+            data-i18n
+            data-en="Stay connected with our latest updates and events."
+            data-mr="आमच्या ताज्या अपडेट्स आणि कार्यक्रमांसोबत जोडलेले रहा."
+          >
+            Stay connected with our latest updates and events.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Twitter / X">X</a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span
+          data-i18n
+          data-en="© 2026 K. Manikrao Patil Educational Foundation. All rights reserved."
+          data-mr="© 2026 के. माणिकराव पाटील एज्युकेशनल फाउंडेशन. सर्व हक्क राखीव."
+          >© 2026 K. Manikrao Patil Educational Foundation. All rights reserved.</span
+        >
+      </div>
+    </footer>
+
+    <script>
+      // Keep this list in sync with your folder contents.
+      // If you add more newspaper images, add them here.
+      window.MPEF_NEWS_IMAGES = [
+        { src: "images/Newspaper/1.jpeg", title: "Newspaper clipping 1" },
+        { src: "images/Newspaper/2.jpeg", title: "Newspaper clipping 2" },
+        { src: "images/Newspaper/3.jpeg", title: "Newspaper clipping 3" },
+        { src: "images/Newspaper/4.jpeg", title: "Newspaper clipping 4" },
+      ];
+    </script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
+
+
