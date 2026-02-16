@@ -6,7 +6,7 @@
     Contact: "संपर्क",
     "Enquire Now": "तुरंत चौकशी करा",
     "Skip to content": "मुख्य मजकुराकडे जा",
-    "Manikrao Patil Education Foundation": "माणिकराव पाटील एज्युकेशन फाउंडेशन",
+    "Manikrao Patil Education Foundation": "कै.श्री. माणिकराव पाटील एज्युकेशनल फौंडेशन",
     "Shaping futures through education": "शिक्षणातून भविष्य घडवतो",
     "Education â€¢ Excellence â€¢ Empowerment": "शिक्षण • उत्कृष्टता • सबलीकरण",
     "Mission â€¢ Vision â€¢ Values": "ध्येय • दृष्टिकोन • मूल्ये",
@@ -51,10 +51,10 @@
     "Follow Us": "आम्हाला फॉलो करा",
     "Stay connected with our latest updates and events.":
       "आमच्या ताज्या अपडेट्स आणि कार्यक्रमांसोबत जोडलेले रहा.",
-    "K. Manikrao Patil Educational Foundation": "के. माणिकराव पाटील एज्युकेशनल फाउंडेशन",
+    "Late Manikrao Patil Educational Foundation": "कै.श्री. माणिकराव पाटील एज्युकेशनल फौंडेशन",
     "Registered under RG. No. F33881": "नोंदणी क्रमांक: RG. No. F33881",
-    "© 2026 K. Manikrao Patil Educational Foundation. All rights reserved.":
-      "© 2026 के. माणिकराव पाटील एज्युकेशनल फाउंडेशन. सर्व हक्क राखीव.",
+    "© 2026 Late Manikrao Patil Educational Foundation. All rights reserved.":
+      "© 2026 कै.श्री. माणिकराव पाटील एज्युकेशनल फौंडेशन. सर्व हक्क राखीव.",
     "About MPEF": "MPEF विषयी",
     "Our mission": "आमचे ध्येय",
     "Our vision": "आमचा दृष्टिकोन",
@@ -381,13 +381,13 @@
     const isGallery = path.endsWith("/gallery.html") || path.endsWith("\\gallery.html");
     if (lang === "mr") {
       if (isAbout) {
-        document.title = "आमच्याबद्दल • माणिकराव पाटील एज्युकेशन फाउंडेशन (MPEF)";
+        document.title = "आमच्याबद्दल • कै.श्री. माणिकराव पाटील एज्युकेशनल फौंडेशन (MPEF)";
       } else if (isNews) {
-        document.title = "बातम्या • माणिकराव पाटील एज्युकेशन फाउंडेशन (MPEF)";
+        document.title = "बातम्या • कै.श्री. माणिकराव पाटील एज्युकेशनल फौंडेशन (MPEF)";
       } else if (isGallery) {
-        document.title = "गॅलरी • माणिकराव पाटील एज्युकेशन फाउंडेशन (MPEF)";
+        document.title = "गॅलरी • कै.श्री. माणिकराव पाटील एज्युकेशनल फौंडेशन (MPEF)";
       } else {
-        document.title = "माणिकराव पाटील एज्युकेशन फाउंडेशन (MPEF)";
+        document.title = "कै.श्री. माणिकराव पाटील एज्युकेशनल फौंडेशन (MPEF)";
       }
       return;
     }
